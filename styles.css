@@ -1,0 +1,124 @@
+body {
+    font-family: 'Baloo', cursive; /* Use the Baloo font */
+    text-align: center;
+    background-color: #F0DCDC; /* Background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+}
+
+header {
+    background: url('header-background.jpg') center/cover;
+    color: #CD858D; /* Header text color */
+    padding: 20px 0;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Baloo', cursive; /* Use the Baloo font for headings */
+}
+
+section {
+    max-width: 800px;
+    width: 100%;
+    margin: 5px 20px 20px;
+    padding: 20px;
+    background-color: #F0D1D7; /* Section background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%; /* Set the maximum width to 100% of the container */
+    max-height: 300px; /* Set a maximum height for the image */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.details {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.details p {
+    margin-bottom: 10px;
+    color: #5c4f4f; /* Darker text color for better visibility */
+}
+
+.rsvp {
+    margin-top: 20px;
+}
+
+.rsvp-form {
+    margin-top: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #CD858D; /* Label color */
+}
+
+/* Display checkboxes horizontally */
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+    display: inline-block; /* Display checkboxes horizontally */
+}
+
+/* Remove the block display for the checkbox labels */
+.form-group input[type="checkbox"] + label {
+    display: inline;
+    color: #5c4f4f; /* Darker text color for better visibility */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DBB6B0; /* Input border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+button {
+    font-family: 'Baloo', cursive; /* Use the Baloo font for the button */
+    background-color: #CD858D; /* Button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px; /* Increase border-radius for a bubbly effect */
+    cursor: pointer;
+    font-size: 1.2em; /* Slightly increase font size for a bubbly feel */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #DBB6B0; /* Button hover color */
+}
+
+footer {
+    background: url('footer-background.jpg') center/cover;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
